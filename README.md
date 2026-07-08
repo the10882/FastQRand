@@ -10,3 +10,4 @@ const std::string FLENAME = "random.fastq"; -- output file name
 const int BUFFER_SIZE = 1000000; -- buffer size (between file writes)
 const int THREADS = 30; -- number of threads
 ```
+Compilation tested with g++ 8.3.0 using --pthread
